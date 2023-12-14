@@ -3,11 +3,12 @@ session_start();
 
 require_once "includes/config.php"; // Remplacez par votre script de configuration de la base de données
 
+// test sonia
 // Vérifier si l'utilisateur est déjà connecté
 if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
     header("location: profil.php");
     exit;
-}
+} 
 
 $email = $password = "";
 $email_err = $password_err = "";
@@ -79,3 +80,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     unset($pdo);
 }
 ?>
+
