@@ -59,3 +59,5 @@ Il est recommandé d'installer WAMP, MAMP ou LAMP, qui incluent à la fois un se
 ## Base de données
 
 Le fichier `party_planner_db.sql` contient la structure de la base de données avec des données initiales.
+
+testsonia
